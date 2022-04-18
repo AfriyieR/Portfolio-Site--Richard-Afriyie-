@@ -2,39 +2,49 @@
 <html lang="en" dir="ltr">
 
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
   <link href="img/favicon/favicon 32x32.png" rel="shortcut icon">
   <title>Richard Afriyie UI/UX Designer London</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
 </head>
 
 <body>
   <header>
-    <div>
-      <img src="img/logo.svg" alt="Richard Afriyie">
+    <div class="container">
+      <a class="logo" href="index.html"><img id="logo" src="img/logo.svg" alt="Richard Afriyie">
+      </a>
       <nav>
-
         <ul>
           <li><a href="index.html">Work</a></li>
-          <li><a href="about.html" target="_blank">About</a></li>
+          <li><a href="about.html">About</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
-
       </nav>
     </div>
+
   </header>
 
   <main>
-    <div>
-      <div>
+    <div id="hero-about">
+      <div class="container">
+
         <div>
           <h1>About Me</h1>
         </div>
+
         <div>
           <picture>
             <source srcset="img/about/pic@1x.jpg" media="(max-width:767px)">
             <img src="img/about/pic@2x.jpg" alt="My Pic">
           </picture>
-          <div>
+
+          <div id="my-story">
             <h2>My story</h2>
             <p> I am a UI designer with a background in graphic design. Working as a remote intern on a medical marketplace
               called Unirever as a UI/UX designer gave me experience in this area. My role was to use a design system to
@@ -50,10 +60,13 @@
             <p> In addition,I co-founded a small design company where I developed leadership, organisational, and management skills.  
               I am seeking to work for FinTech Company as UI designer to impact lives positively with my skills. </p>
 
-            <a href="files/cv.pdf" download>Download my CV</a>
+            <a href="files/cv.pdf" class="button download" download>Download my CV</a>
           </div>
-          <div>
+
+          <div id="skills-tools">
             <h1>Skills and Tools</h1>
+
+            <div class="skills">
             <h2>Relevant Skills</h2>
             <ul>
               <li> User Research </li>
@@ -64,9 +77,10 @@
               <li> Design System </li>
               <li> Typography </li>
             </ul>
-            <a href="">Read more</a </div>
-            <div>
-              <h3>Tools I use </h3>
+            </div>
+
+            <div class="tools">
+              <h2>Tools I use </h2>
               <ul>
                 <li> Figma </li>
                 <li> Sketch </li>
@@ -76,8 +90,9 @@
                 <li> Photoshop </li>
                 <li> Illustrator </li>
               </ul>
-              <a href="">Read more</a </div>
+              </div>
             </div>
+
           </div>
         </div>
   </main>
