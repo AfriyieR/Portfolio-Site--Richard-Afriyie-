@@ -2,16 +2,22 @@
 <html lang="en" dir="ltr">
 
 <head>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta charset="utf-8">
   <link href="img/favicon/favicon 32x32.png" rel="shortcut icon">
-  <title>Richard Owura Afriyie UI/UX Designer London</title>
+  <title>Richard Afriyie UI/UX Designer London</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
   <header>
-    <div>
-      <img src="img/logo.svg" alt="Richard Afriyie">
+    <div class="container">
+      <a class="logo" href="index.html"><img id="logo" src="img/logo.svg" alt="Richard Afriyie">
+      </a>
       <nav>
         <ul>
           <li><a href="index.html">Work</a></li>
@@ -20,15 +26,15 @@
         </ul>
       </nav>
     </div>
-
   </header>
 
-  <main>
-    <!-- hero section -->
-    <div>
-      <div>
 
-        <h1>Hi, I am Richard</h1>
+  <main>
+    <div id="hero">
+      <!-- hero section -->
+      <div class="container">
+
+        <h1>Hello, I am Richard</h1>
         <p>
           A UI designer with experience in graphic design. As a UI designer, my goal has always been to design user-centric interfaces.
           My skills include creating visually appealing designs, identifying problems and providing solutions.
@@ -39,16 +45,15 @@
       </div>
     </div>
 
-
-
-    <div>
+    <div id="work">
       <!-- Work Section1 -->
-      <div>
-        <a href="Phloc.html"><h2>My work</h2></a> <!-- linked to projects page -->
+      <div class="container">
+        <h2>My work</h2>
       </div>
 
-        <div>  <!-- row -->
-          <div>
+      <div>
+        <!-- row -->
+        <div>
           <picture>
             <source srcset="img/phloc/Phloc_cover@1x.jpg" media="(max-width:767px)">
             <img src="img/phloc/Phloc_cover@2x.jpg" alt="Pharmacy Location Responsive Web App">
@@ -56,8 +61,9 @@
         </div>
 
 
-        <div>    <!-- Second Column -->
-          <a href="Phloc.html"><h3>Phloc+</h3></a> <!-- linked to projects page -->
+        <div class="container">
+          <!-- Second Column -->
+          <h3>Phloc+</h3>
           <p>
             The application lets users keep track of their daily, weekly, monthly, and yearly
             financial transactions, set savings goals, and find free financial advice. It also features a
@@ -68,62 +74,64 @@
             Using competitor and user knowledge, a user flow, low-fi wireframes, mid-fi and high-fidelity wireframes
             were developed. Tested and iterated the designs based on user feedback.
           </p>
-          <a href="">Read more</a>
+
+          <a href="Phloc.html" class="button">Read More</a>
+
         </div>
       </div><!-- end row -->
 
 
-        <h2>My work 2</h2>
-        <div>
-          <picture>
-            <source srcset="img/skimp/Skimp_cover@1x.jpg" media="(max-width:767px)">
-            <img src="img/skimp/Skimp_cover@2x.jpg" alt="Skimp financial management app (Android and iOS)">
-          </picture>
-        </div>
-        <div>
-          <!-- Second Column -->
-          <h3>Skimp+</h3>
-          <p>
-            The application lets users keep track of their daily, weekly, monthly, and yearly
-            financial transactions, set savings goals, and find free financial advice. It also features a
-            chat feature that lets users contact financial advisors.
-          </p>
-          <p>
-            Analysed competitors for key features and pain points.
-            Using competitor and user knowledge, a user flow, low-fi wireframes, mid-fi and high-fidelity wireframes
-            were developed. Tested and iterated the designs based on user feedback.
-          </p>
-          <a href="">Read more</a>
-        </div>
+      <div>
+        <picture>
+          <source srcset="img/skimp/Skimp_cover@1x.jpg" media="(max-width:767px)">
+          <img src="img/skimp/Skimp_cover@2x.jpg" alt="Skimp financial management app (Android and iOS)">
+        </picture>
+      </div>
 
-        <h2>My work 3</h2>
-        <div>
+      <div>
+        <!-- Second Column -->
+        <h3>Skimp+</h3>
+        <p>
+          The application lets users keep track of their daily, weekly, monthly, and yearly
+          financial transactions, set savings goals, and find free financial advice. It also features a
+          chat feature that lets users contact financial advisors.
+        </p>
+        <p>
+          Analysed competitors for key features and pain points.
+          Using competitor and user knowledge, a user flow, low-fi wireframes, mid-fi and high-fidelity wireframes
+          were developed. Tested and iterated the designs based on user feedback.
+        </p>
+      </div>
 
-          <picture>
-            <source srcset="img/babfeed/babfeed_mockup@1x.jpg" media="(max-width:767px)">
-            <img src="img/babfeed/babfeed_mockup@2x.jpg" alt="Babyfood online store">
-          </picture>
-        </div>
-        <div>
-          <!-- Second Column -->
-          <h3>Babfeed+</h3>
-          <p>
-            The application lets users keep track of their daily, weekly, monthly, and yearly
-            financial transactions, set savings goals, and find free financial advice. It also features a
-            chat feature that lets users contact financial advisors.
-          </p>
-          <p>
-            Analysed competitors for key features and pain points.
-            Using competitor and user knowledge, a user flow, low-fi wireframes, mid-fi and high-fidelity wireframes
-            were developed. Tested and iterated the designs based on user feedback.
-          </p>
-          <a href="">Read more</a>
-        </div>
+      <a href="#" class="button">Read More</a>
+
+      <div>
+        <picture>
+          <source srcset="img/babfeed/babfeed_mockup@1x.jpg" media="(max-width:767px)">
+          <img src="img/babfeed/babfeed_mockup@2x.jpg" alt="Babyfood online store">
+        </picture>
+      </div>
+
+      <div>
+        <!-- Second Column -->
+        <h3>Babfeed+</h3>
+        <p>
+          The application lets users keep track of their daily, weekly, monthly, and yearly
+          financial transactions, set savings goals, and find free financial advice. It also features a
+          chat feature that lets users contact financial advisors.
+        </p>
+        <p>
+          Analysed competitors for key features and pain points.
+          Using competitor and user knowledge, a user flow, low-fi wireframes, mid-fi and high-fidelity wireframes
+          were developed. Tested and iterated the designs based on user feedback.
+        </p>
+
+        <a href="#" class="button">Read More</a>
+
       </div>
     </div>
+    </div>
   </main>
-
-
 
 
   <footer id="contact">
@@ -133,8 +141,10 @@
       <a href="tel:+44000000009">+44000000009</a>. Prefer sending an email?
     </p>
     <div>
-      <a href="mailto:richardafriyie@gmail.com">Mail to </a>
-    </div>
+      <a href="mailto:richardafriyie@gmail.com" class="button contact">Send me an email</a>
+  </div>
+
+
     <div>
       <ul>
         <a href="LINKEDIN-URL" target="_blank">
@@ -150,7 +160,6 @@
               .st0 {
                 fill: #3B579D;
               }
-
               .st1 {
                 fill: #FFFFFF;
               }
@@ -171,14 +180,14 @@
         </a>
       </ul>
 
-    </div>
+      </div>
 
-    <p>Copyright Richard Afriyie 2022</p>
+      <p>Copyright Richard Afriyie 2022</p>
 
-    </div>
+      </div>
 
     </footer>
 
-</body>
+  </body>
 
 </html>
