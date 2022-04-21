@@ -1,3 +1,4 @@
+
 body {
   background-color: #ffffff;
   font-family: 'Roboto', sans-serif;
@@ -37,13 +38,14 @@ img {
 
 a {
   color: #1B27C9;
-  background-color: #ffffff;
+  background-color: 0;
   text-decoration: none;
 }
 
 a:visited {
   color: #1B27C9;
 }
+
 a:hover {
   color: #0F156D;
   background-color: #ffffff;
@@ -60,8 +62,6 @@ a:active {
   color: #1B27C9;
   background-color: #ffffff;
 }
-
-
 
 .button {
   display: inline-block;
@@ -106,7 +106,101 @@ a.button {
   text-transform: uppercase;
   border: 2px solid #1B27C9;
 }
+
 .button.download:hover {
   background-color: #1B27C9;
   color: #ffffff;
+}
+
+header {
+  background-color: #F9F9F9;
+  padding: 10px;
+  margin: 10px;
+  border-bottom: 3px solid #f1f1f1;
+}
+
+
+/* Layout styling */
+
+.container {
+  padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+
+#work .row {
+  padding-bottom: 25px;
+  border-bottom: 1px
+  solid #4a4a4a; }
+
+  .logo {
+    max-width: 250px;
+  }
+
+  header {
+  background-color: #F9F9F9;
+  text-align: center;
+  padding: 10px 0;
+  box-shadow:0px 6px 14px 0px rgba(50, 50, 50, 0.26);
+  position: fixed;
+  width: 100%
+  display: inline-block
+}
+
+nav > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4a4a4a;
+}
+
+
+
+
+nav > ul > li > a:visited {
+color: #1B27C9;
+}
+
+nav {
+  display: inline-block;
+  width: 100%
+}
+
+#hero {
+  background-color: #1B27C9;
+  color: #ffffff;
+}
+
+
+#hero {
+  background-color: #1B27C9;
+  padding: 20px 0;
+}
+
+main {
+  padding-top: 133px;
+}
+
+.social-icons svg {
+  height: 42px;
+  width: auto;
+
+}
+
+ul {
+ list-style-type: none;
+padding: 0;
+
+
 }
