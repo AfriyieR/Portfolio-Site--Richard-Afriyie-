@@ -36,6 +36,8 @@ h2,
 h3,
 h4 {
     line-height: 1.4;
+
+
 }
 
 h1 {
@@ -46,11 +48,13 @@ h1 {
 h2 {
     font-size: 2.25em;
     font-weight: 700;
+
 }
 
 h3 {
     font-size: 1.75em;
     font-weight: 600;
+      color: #1622D1;
 }
 
 h4 {
@@ -90,7 +94,7 @@ a:active {
 
 .button {
     display: inline-block;
-    background-color: #1B27C9;
+    background-color: #121212;
     color: #ffffff;
     font-weight: 700;
     text-decoration: none;
@@ -102,7 +106,7 @@ a:active {
 
 .button:hover {
     opacity: 0.8;
-    background-color: #3543FF;
+    background-color: #606060;
     color:  #f9f9f9;
 
 }
